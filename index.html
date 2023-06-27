@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,500&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Oxygen:wght@300&family=Playfair:ital,wght@0,300;0,500;1,400;1,500&family=Roboto:ital,wght@0,400;1,300;1,400&family=Ubuntu:ital,wght@0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="/your-path-to-fontawesome/css/custom-icons.css" rel="stylesheet">
+    <link href="/your-path-to-fontawesome/css/sharp-solid.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="media-style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,500&family=Oxygen:wght@300&family=Playfair:ital,wght@0,300;0,500;1,400;1,500&family=Roboto:ital,wght@0,400;1,300;1,400&family=Source+Sans+Pro:ital,wght@0,200;1,200&family=Ubuntu:ital,wght@0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <title>My Site</title>  
+  </head>
+  <body>
+    <!-- preloader -->
+    <div class="preloader" data-preloader>
+        <div class="preloader-inner">
+            <img src="logo.png" alt="" class="img" width="50" height="50">
+        </div>
+    </div>
+
+<!-- 
+    header -->
+
+    <header class="header" data-header>
+      <div class="container">
+
+            <a href="#" class="logo">
+                <!-- <img src="logo.png" alt="llogo" width="187" height="38"> -->
+                <h1 style="font-size: var(--fontSize-3); color: black;">St Monica</h1>
+            </a>
+
+        <nav class="navbar" data-navbar>
+
+            <div class="navbar-top">  
+                <a href="" class="logo">
+                    <img src="logo.png" alt="llogo" width="187" height="38">
+                </a>
+                <button class="nav-toggle-btn" aria-label="close menu" data-nav-toggler>
+                  <!-- <i class="fa fa-xmark"></i> -->
+                  <img src="close-menu.PNG" alt="" width="25" height="25">
+                </button>
+            </div>
+
+
+            <ul class="navbar-list">
+
+              <li class="navbar-item">
+                <a href="#" class="navbar-link">Home</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#" class="navbar-link">About</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#" class="navbar-link">Service</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#" class="navbar-link">Gallery</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#" class="navbar-link">Contact</a>
+              </li>
+            </ul>
+
+            <!-- <div class="header-action">
+              <a href="#" class="login-btn">
+                login
+              </a>
+              <a href="#" class="btn btn-primary">
+                Sign Up
+              </a>
+            </div> -->
+        </nav>
+
+        <button class="nav-toggle-btn" aria- label="open menu" data-nav-toggler>
+          <!-- <i class="fa fa-xmark"></i> -->
+          <img src="menu-bar.png" alt="" width="50" height="50">
+        </button>
+
+
+        <div class="overlay" data-overlay data-nav-toggler ></div>
+      </div> 
+    </header>
+
+
+
+    <main>
+      <article>
+
+        <section class="section hero has-bg-image" aria-label="hero" style="background-image: url('')">
+
+          <div class="container">
+
+            <div class="hero-content">
+              <p class="hero-subtitle">Welcome to St Monica<img src="globe.PNG" alt="" width="20" height="20" class="img">
+              </p>
+              <h1 class="h1 title hero-title">
+               The Place Where God Dewels
+              </h1>
+              <p class="hero-text">
+                Welcome to St monical catholic church, a place of caring and gracious spirit 
+                -- a spirit directly attributed to christ's presence in the church's life and people. 
+                We minister to all backgrounds, including families and students.
+              </p>
+
+              <!-- <div class="wrapper">
+                <a href="" class="btn btn-seconday">
+                  <span class="span">Plan a Trip</span>
+                  <img src="right-arrows.jpg" alt="" width="50" height="50">
+                </a>
+
+                <button class="hero-btn">
+
+                  <div class="btn-img">
+                    <img src="logo.png" alt="" width="50" height="50" class="img-cover">
+                  </div>
+
+                  <p class="text">Watch Our Story</p>
+                </button>
+              </div> -->
+            </div>
+
+            <figure class="hero-banner">
+              <img src="undraw_world_re_768g.svg" alt="" width="631" height="735" class="w-100"> 
+            </figure>
+          </div>
+        </section>
+
+
+        <!-- SERVICE SECTION 0----
+        ---------->
+
+
+       <section class="section service" aria-label="service">
+
+        <div class="container">
+           
+          <div class="title-wrapper">
+            <p class="section-subtitle">
+              What We Serve
+            </p>
+            <h2 class="h2 title section-title">
+             Waiting On The Presence Of God
+            </h2>
+
+            <p class="section-text">
+             A time of Refreshing
+            </p>
+          </div>
+
+
+          <div class="service-card">
+
+            <div class="card-icon">
+              <img src="svg/prayer.png" alt="" width="50" height="50" loading="lazy">
+            </div>
+
+            <h3 class="h3 title card-title">
+              Prayer
+            </h3>
+
+            <p class="card-text">
+              Lorem ipsum dolor sit amet 
+              consectetur adipisicing elit. Ipsam?
+            </p>
+          </div>
+
+          <div class="service-card">
+
+            <div class="card-icon">
+              <img src="svg/counseling.png" alt="" width="50" height="50" loading="lazy">
+            </div>
+
+            <h3 class="h3 title card-title">
+              Conselling
+            </h3>
+
+            <p class="card-text">
+              Lorem ipsum dolor sit amet 
+              consectetur adipisicing elit. Ipsam?
+            </p>
+          </div>
+
+          <div class="service-card">
+
+            <div class="card-icon">
+              <img src="svg/exhortation.png" alt="" width="50" height="50" loading="lazy">
+            </div>
+
+            <h3 class="h3 title card-title">
+              Exhortation
+            </h3>
+
+            <p class="card-text">
+              Lorem ipsum dolor sit ame
+               consectetur adipisicing elit. Ipsam?
+            </p>
+          </div>
+        </div>
+
+       </section>
+
+<!-- 
+       DESTINATION----
+      
+      -->
+
+      <section class="section desti" aria-label="destination">
+
+        <div class="container">
+
+          <p class="section-subtitle">
+            TOP DESTINATION
+          </p>
+
+          <h2 class="h2 title section-title">Explore Top Destination</h2>
+
+          <ul class="desti-list">
+
+            <li>
+              <div class="desti-card">
+                <div class="card-banner img-holder" style="--width: 600;--height: 650;">
+
+                  <img src="brookly.jpeg" alt="" class="img-cover" width="600" height="650" loading="lazy">
+
+                  <span class="card-price">$350</span>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3 title">
+                    <a href="" class="caard-title">
+                      Enjoy the Beauty of the del pincio
+                    </a>
+                  </h3>
+
+                  <address class="card-text">
+                    Rome, Italy 
+                  </address>
+
+                  <div class="card-rating">
+                    <span class="span">
+                      <img src="star.PNG" alt="" width="20" height="20">
+
+                      4.7
+                    </span>
+
+                    <p class="rating-text">
+                      (11.1k Review)
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="desti-card">
+                <div class="card-banner img-holder" style="--width: 600;--height: 650;">
+
+                  <img src="poertland.jpeg" alt="" class="img-cover" width="600" height="650" loading="lazy">
+
+                  <span class="card-price">$350</span>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3 title">
+                    <a href="" class="caard-title">
+                      Enjoy the Beauty of the del pincio
+                    </a>
+                  </h3>
+
+                  <address class="card-text">
+                    Rome, Italy 
+                  </address>
+
+                  <div class="card-rating">
+                    <span class="span">
+                      <img src="star.PNG" alt="" width="20" height="20">
+
+                      4.7
+                    </span>
+
+                    <p class="rating-text">
+                      (11.1k Review)
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="desti-card">
+                <div class="card-banner img-holder" style="--width: 600;--height: 650;">
+
+                  <img src="poertland.jpeg" alt="" class="img-cover" width="600" height="650" loading="lazy">
+
+                  <span class="card-price">$350</span>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3 title">
+                    <a href="" class="caard-title">
+                      Enjoy the Beauty of the del pincio
+                    </a>
+                  </h3>
+
+                  <address class="card-text">
+                    Rome, Italy 
+                  </address>
+
+                  <div class="card-rating">
+                    <span class="span">
+                      <img src="star.PNG" alt="" width="20" height="20">
+
+                      4.7
+                    </span>
+
+                    <p class="rating-text">
+                      (11.1k Review)
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="desti-card">
+                <div class="card-banner img-holder" style="--width: 600;--height: 650;">
+
+                  <img src="brookly.jpeg" alt="" class="img-cover" width="600" height="650" loading="lazy">
+
+                  <span class="card-price">$350</span>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3 title">
+                    <a href="" class="caard-title">
+                      Enjoy the Beauty of the del pincio
+                    </a>
+                  </h3>
+
+                  <address class="card-text">
+                    Rome, Italy 
+                  </address>
+
+                  <div class="card-rating">
+                    <span class="span">
+                      <img src="star.PNG" alt="" width="20" height="20">
+
+                      10.4
+                    </span>
+
+                    <p class="rating-text">
+                      (15.1k Review)
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="desti-card">
+                <div class="card-banner img-holder" style="--width: 600;--height: 650;">
+
+                  <img src="logo.png" alt="" class="img-cover" width="600" height="650" loading="lazy">
+
+                  <span class="card-price">$350</span>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3 title">
+                    <a href="" class="caard-title">
+                      Enjoy the Beauty of the del pincio
+                    </a>
+                  </h3>
+
+                  <address class="card-text">
+                    Rome, Italy 
+                  </address>
+
+                  <div class="card-rating">
+                    <span class="span">
+                      <img src="star.PNG" alt="" width="20" height="20">
+
+                      5.9
+                    </span>
+
+                    <p class="rating-text">
+                      (11.1k Review)
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="desti-card">
+                <div class="card-banner img-holder" style="--width: 600;--height: 650;">
+
+                  <img src="poertland.jpeg" alt="" class="img-cover" width="600" height="650" loading="lazy">
+
+                  <span class="card-price">$350</span>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3 title">
+                    <a href="" class="caard-title">
+                      Enjoy the Beauty of the del pincio
+                    </a>
+                  </h3>
+
+                  <address class="card-text">
+                    Rome, Italy 
+                  </address>
+
+                  <div class="card-rating">
+                    <span class="span">
+                      <img src="star.PNG" alt="" width="20" height="20">
+
+                      5.9
+                    </span>
+
+                    <p class="rating-text">
+                      (11.1k Review)
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <a href="" class="btn btn-primary">
+            View All Destination
+          </a>
+        </div>
+      </section>
+
+
+      <!-- EXPERICENCE -->
+
+      <section class="section exp" aria-label="experience">
+
+        <div class="container">
+
+          <div class="exp-content">
+
+            <p class="section-subtitle">
+              Our Experience
+            </p>
+
+            <h2 class="h2 title section-title">
+              With Our Experience We Will Serve You
+            </h2>
+
+            <p class="section-text">
+              Lorem ipsum dolor sit amet, consectetur 
+              adipisicing elit. Itaque repellendus optio, 
+              unde aliquam harum accusantium minus. 
+            </p>
+
+            <ul class="exp-list">
+              <li class="exp-item">
+                <h3 class="h3 title item-title">
+                  20
+                </h3>
+
+                <p class="item-text">
+                  Years <br>
+                  Experience
+                </p>
+              </li>
+              <li class="exp-item">
+                <h3 class="h3 title item-title">
+                  50+
+                </h3>
+
+                <p class="item-text">
+                  Happy <br>
+                  Customers
+                </p>
+              </li>
+              <li class="exp-item">
+                <h3 class="h3 title item-title">
+                  460+
+                </h3>
+
+                <p class="item-text">
+                  Destination <br>
+                  Collaboration
+                </p>
+              </li>
+            </ul>
+          </div>
+
+          <figure class="exp-banner">
+            <img src="undraw_messages_re_qy9x.svg" alt="" class="w-100" width="550" height="660" loading="lazy">
+          </figure>
+  
+          <img src="logo.png" alt="" class="exp-shape" width="50" height="50" loading="lazy" alt="24.7">
+        </div>    
+      </section>
+
+
+      <!-- GALLERY ----->
+
+    <section class="section gallery" aria-label="gallery">
+ 
+      <div class="container">
+ 
+        <p class="section-subtitle">
+          Photo Gallery
+        </p>
+
+        <h2 class="h2 title section-title">
+          Photo's From Activities
+        </h2>
+
+        <ul class="gallery-list">
+
+          <li class="gallery-item">
+
+            <figure class="item-banner img-holder" style="--width: 700; --height: 955;">
+
+            <img src="gallery/carusel pick.JPG" alt="" class="img-cover" width="700"  height="955" loading="lazy">
+            </figure>
+          </li>
+          <li class="gallery-item">
+
+            <figure class="item-banner img-holder" style="--width: 700 ; --height: 955;">
+
+            <img src="gallery/contact-hero.JPG" alt="" class="img-cover" width="700"  height="955" loading="lazy">
+            </figure>
+          </li>
+          <li class="gallery-item">
+
+            <figure class="item-banner img-holder" style="--width: 700; --height: 840;">
+
+            <img src="gallery/gallery1.jpg" alt="" class="img-cover" width="700"  height="840" loading="lazy">
+            </figure>
+          </li>
+          <li class="gallery-item">
+
+            <figure class="item-banner img-holder" style="--width: 700; --height: 378;">
+
+            <img src="gallery/gallery4.jpg" alt="" class="img-cover" width="700"  height="378" loading="lazy">
+            </figure>
+          </li>
+          <li class="gallery-item">
+
+            <figure class="item-banner img-holder" style="--width: ; --height: ;">
+
+            <img src="gallery/join-pick.JPG" alt="" class="img-cover" width="700"  height="378" loading="lazy">
+            </figure>
+          </li>
+          <li class="gallery-item">
+
+            <figure class="item-banner img-holder" style="--width: 700; --height: 378;">
+
+            <img src="gallery/gallery4.jpg" alt="" class="img-cover" width="700"  height="378" loading="lazy">
+            </figure>
+          </li>
+        </ul>
+      </div>
+
+    </section>
+
+
+
+    <!-- #CTA -->
+
+    <section class="section cta" aria-label="call to action">
+
+      <div class="container">
+
+        <div class="cta-card has-bg-img" style="background-color: url();">
+
+          <h2 class="h2 title section-title">
+            Prepare Yourself & let's Explore the Beauty of the World
+            <img src="logo.png" alt="" width="30" height="30" loading="lazy " class="img">
+          </h2>
+
+          <p class="section-text">
+            We have many speacial offer especially for you 
+          </p>
+
+          <a href="" class="btn btn-primary">Get Started</a>
+        </div>
+      </div>
+    </section>
+      </article>
+    </main>
+
+    <!-- FOOTER SECTION -->
+
+    <footer class="footer">
+
+      <div class="container">
+
+        <div class="footer-top">
+
+          <div class="footer-brand">
+
+            <a href="" class="logo">
+
+              <img src="logo.png" alt="" width="187" height="38" loading="lazy">
+            </a>
+
+            <p class="footer-text">
+              We always make our Customer
+              happy by providing as many 
+              choice as possible
+            </p>
+
+            <ul class="social-list">
+
+              <li>
+                <a href="" class="social-link">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="" class="social-link">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="" class="social-link">
+                  <i class="fa fa-whatsapp"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">
+              About
+            </p>
+          </li>
+
+          <li>
+            <a href="" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="" class="footer-link">Features</a>
+          </li>
+
+          <li>
+            <a href="" class="footer-link">News</a>
+          </li>
+
+          <li>
+            <a href="" class="footer-link">Menu</a>
+          </li>
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">
+              Company
+            </p>
+          </li>
+
+          <li>
+            <a href="" class="footer-link">Why Company</a>
+          </li>
+
+          <li>
+            <a href="" class="footer-link">Partner With Us</a>
+          </li>
+
+          <li>
+            <a href="" class="footer-link">FAQ</a>
+          </li>
+
+          <li>
+            <a href="" class="footer-link">Blog</a>
+          </li>
+        </ul>
+
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">
+              Support
+            </p>
+          </li>
+
+          <li>
+            <a href="" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="" class="footer-link">Accouint</a>
+          </li>
+
+          <li>
+            <a href="" class="footer-link">Support Center</a>
+          </li>
+
+          <li>
+            <a href="" class="footer-link">Feedback</a>
+          </li>
+
+          <li>
+            <a href="" class="footer-link">Contact US</a>
+          </li>
+        </ul>
+
+
+        <div class="footer-list">
+
+          <p class="footer-list-title">
+            Get in Touch
+          </p>
+
+          <p class="footer-text">
+
+            Question or feedback We'd love to hear from you
+          </p>
+
+          <form action="" class="input-wrapper">
+
+            <input type="email" class="input-field" name="email_address" placeholder="Email Address" autocomplete="off" required>
+
+            <button class="input-btn" type="submit" aria-label="send a message">
+              <img src="logo" alt="" width="10" height="10">
+            </button>
+          </form>
+        </div>
+        </div>
+
+        <div class="footer-bottom">
+
+          <p class="copyright">
+            Copy 2023. Made by <a href="" class="copyright-link">Petech</a>
+          </p>
+
+
+          <ul class="footer-bottom-list">
+
+            <li>
+              <a href="" class="footer-bottom-link">Tearm and Condition</a>
+            </li>
+
+            <li>
+              <a href="" class="footer-bottom-link">Privacy and Policy</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
